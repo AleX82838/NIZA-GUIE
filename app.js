@@ -165,8 +165,8 @@ function enviarWhatsApp(numero) {
   const mensaje = document.getElementById("mensaje").value.trim();
   let texto = `Hola, soy ${nombre || "un fan"} y quiero más información. ${mensaje ? "Mensaje: " + mensaje : ""}`;
 
-  const num1 = "5219512345678"; // ← Reemplázalo con número real
-  const num2 = "5219518765432"; // ← Reemplázalo con número real
+  const num1 = "+52 56 5459 5169"; // ← Reemplázalo con número real
+  const num2 = "+52 971 127 5460"; // ← Reemplázalo con número real
   const numeroDestino = numero === 1 ? num1 : num2;
   const url = `https://wa.me/${numeroDestino}?text=${encodeURIComponent(texto)}`;
 
@@ -182,4 +182,5 @@ if ("serviceWorker" in navigator) {
       .catch(err => console.log("❌ Error SW:", err));
   });
 }
+
 
