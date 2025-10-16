@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Niza Guie - La Lluvia</title>
+
+  <!-- Icono y estilos -->
+  <link rel="icon" href="nizaguie.jpg" type="image/png" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="manifest" href="manifest.json" />
+
+  <!-- Meta para PWA -->
+  <meta name="theme-color" content="#ff6600" />
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand">
+        <img src="nizaguie.jpg" alt="Logo Niza Guie" />
+        <h1>Niza Guie</h1>
+      </div>
+      <nav class="nav">
+        <a href="#inicio">Inicio</a>
+        <a href="#eventos">Eventos</a>
+        <a href="#integrantes">Integrantes</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="inicio" class="hero">
+    <h2>Bienvenidos a Niza Guie</h2>
+    <p>
+      “Niza Guie” significa <strong>La Lluvia</strong>, un símbolo de vida, alegría y música.  
+      Somos un grupo musical que llena cada escenario con energía, pasión y ritmo.
+    </p>
+    <img src="integrantes.jpg" alt="Foto del grupo Niza Guie" />
+  </section>
+
+  <!-- EVENTOS -->
+  <section id="eventos" class="section">
+    <h3 class="section-title">🎶 Próximos Eventos</h3>
+    <div class="events-grid">
+      <div class="event-card">
+        <img src="img/evento1.jpg" alt="Evento 1" />
+        <h4>sin evento</h4>
+        <small>sin evento</small>
+      </div>
+      <div class="event-card">
+        <img src="img/evento2.jpg" alt="Evento 2" />
+        <h4>sin evento</h4>
+        <small>sin evento</small>
+      </div>
+      <div class="event-card">
+        <img src="img/evento3.jpg" alt="Evento 3" />
+        <h4>sin evento</h4>
+        <small>sin evento</small>
+      </div>
+    </div>
+  </section>
+
+  <!-- INTEGRANTES -->
+  <section id="integrantes" class="section">
+    <h3 class="section-title">👥 Integrantes</h3>
+    <div class="members-grid">
+      <div class="member">
+        <img src="img/integrante1.jpg" alt="Integrante 1" />
+        <h4>integrante </h4>
+        <small>funcion</small>
+      </div>
+      <div class="member">
+        <img src="img/integrante2.jpg" alt="Integrante 2" />
+        <h4>integrante</h4>
+        <small>funcion</small>
+      </div>
+      <div class="member">
+        <img src="img/integrante3.jpg" alt="Integrante 3" />
+        <h4>integrante</h4>
+        <small>funcion</small>
+      </div>
+      <div class="member">
+        <img src="img/integrante4.jpg" alt="Integrante 4" />
+        <h4>integrante</h4>
+        <small>funcion</small>
+      </div>
+      <div class="member">
+        <img src="img/integrante4.jpg" alt="Integrante 5" />
+        <h4>integrante</h4>
+        <small>funcion</small>
+      </div>
+      <div class="member">
+        <img src="img/integrante4.jpg" alt="Integrante 6" />
+        <h4>integrante</h4>
+        <small>funcion</small>
+      </div>
+      <div class="member">
+        <img src="img/integrante4.jpg" alt="Integrante 7" />
+        <h4>integrante</h4>
+        <small>funcion</small>
+      </div>
+      <div class="member">
+        <img src="img/integrante4.jpg" alt="Integrante 8" />
+        <h4>integrante</h4>
+        <small>funcion</small>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="section">
+    <h3 class="section-title">📲 Contrataciones y Contacto</h3>
+    <div class="contact-form">
+      <label for="nombre">Tu nombre</label>
+      <input type="text" id="nombre" placeholder="Escribe tu nombre..." />
+
+      <label for="mensaje">Mensaje</label>
+      <textarea id="mensaje" rows="4" placeholder="Escribe tu mensaje..."></textarea>
+
+      <div class="quick-links">
+        <button class="btn" onclick="enviarWhatsApp(1)">Enviar a WhatsApp 1</button>
+        <button class="btn ghost" onclick="enviarWhatsApp(2)">Enviar a WhatsApp 2</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2025 Niza Guie - “La Lluvia”. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>

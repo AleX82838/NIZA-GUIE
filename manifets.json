@@ -1,0 +1,21 @@
+{
+  "name": "Niza Guie",
+  "short_name": "NizaGuie",
+  "description": "Página oficial del grupo musical Niza Guie - La Lluvia.",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#0b061a",
+  "theme_color": "#ff6600",
+  "icons": [
+    {
+      "src": "img/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "img/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
