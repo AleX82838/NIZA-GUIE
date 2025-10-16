@@ -2,8 +2,8 @@
 // CONFIGURACIÓN INICIAL
 // =============================
 // Reemplaza con tus números reales de WhatsApp (sin + ni guiones)
-const WHA_NUM_1 = "521XXXXXXXXXX"; // Ejemplo: México (52) + número
-const WHA_NUM_2 = "521YYYYYYYYYY";
+const WHA_NUM_1 = "+52 56 5459 5169"; // Ejemplo: México (52) + número
+const WHA_NUM_2 = "+52 971 127 5460";
 
 // =============================
 // DATOS DE PRUEBA (puedes conectar a una API real o Firebase)
@@ -182,3 +182,4 @@ if ("serviceWorker" in navigator) {
       .catch(err => console.log("❌ Error SW:", err));
   });
 }
+
